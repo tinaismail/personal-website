@@ -1,68 +1,39 @@
-<section class="hero is-info is-fullheight">
-    <!-- Hero head: will stick at the top -->
-    <div class="hero-head">
-      <header class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item">
-              <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-            </a>
-            <span class="navbar-burger" data-target="navbarMenuHeroC">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenuHeroC" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item is-active">
-                Home
-              </a>
-              <a class="navbar-item">
-                Examples
-              </a>
-              <a class="navbar-item">
-                Documentation
-              </a>
-              <span class="navbar-item">
-                <a class="button is-success is-inverted">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>Download</span>
-                </a>
-              </span>
-            </div>
-          </div>
+<nav class="navbar is-fixed-top">
+    <div id="navbarMenuHeroC" class="navbar-menu">
+        <ul class="navbar-end">
+          <a href="/app-home" target="_self" class="navbar-item">
+            Home
+          </a>
+          <a href="/app-projects" class="navbar-item">
+            Projects
+          </a>
+          <a href="/app-links" class="navbar-item">
+            Links
+        </a></ul>
+    </div>
+</nav>
+
+<section class="hero is-warning is-fullheight">
+    <div style="justify-content: space-between;" class="hero-body">
+
+        <ul class="menu-list">
+            <li><a href="https://www.github.com/tinaismail" class="navbar-item"><span style="font-size: 40px;"><fa-icon [icon]="faGithub"></fa-icon></span></a></li>
+            <li><a href="https://www.linkedin.com/in/tina-ismail" class="navbar-item"><span style="font-size: 40px;"><fa-icon [icon]="faLinkedin"></fa-icon></span></a></li>
+            <li><a href="#" class="navbar-item"><span style="font-size: 40px;"><fa-icon [icon]="faTwitter"></fa-icon></span></a></li>
+        </ul>
+
+        <div class="has-text-centered">
+            <p class="title">
+            Tina Ismail
+            </p>
+            <p class="subtitle">
+            developer
+            </p>
         </div>
-      </header>
-    </div>
-  
-    <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <p class="title">
-          Title
-        </p>
-        <p class="subtitle">
-          Subtitle
-        </p>
-      </div>
-    </div>
-  
-    <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
-          <ul>
-            <li class="is-active"><a>Overview</a></li>
-            <li><a>Modifiers</a></li>
-            <li><a>Grid</a></li>
-            <li><a>Elements</a></li>
-            <li><a>Components</a></li>
-            <li><a>Layout</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+
+        <img src="../../assets/turkey2.png">
+    
+</div>
+      
+      
   </section>

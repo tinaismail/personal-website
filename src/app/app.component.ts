@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   template: 
   `
   <app-home></app-home>
+  <app-projects></app-projects>
+  <app-links></app-links>
+
   <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
