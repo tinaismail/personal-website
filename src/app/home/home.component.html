@@ -1,39 +1,430 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<nav class="navbar is-fixed-top">
-    <div id="navbarMenuHeroC" class="navbar-menu">
-        <ul class="navbar-end">
-          <a href="/app-home" target="_self" class="navbar-item">
-            Home
-          </a>
-          <a href="/app-projects" class="navbar-item">
-            Projects
-          </a>
-          <a href="/app-links" class="navbar-item">
-            Links
-        </a></ul>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello Bulma!</title>
+		<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <link rel="stylesheet" href="home.component.css">
+		<style>
+.bkg {
+	background: url(../../assets/Screenshot\ \(57\).png) center / cover;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+		</style>
+	</head>
+	<body>
+    <!-- .hero -->
+    <section class="hero">
+      <div class="hero-body">
+          <div class="container">
+              <figure class="image center">
+                  <img src="../../assets/logo.png" style="max-width: 512px;">
+              </figure>
+          </div>
+      </div>
+  </section>
+  <!-- /.hero -->
+
+  <!-- .section -->
+		<section class="section has-background-light">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+						<div class="notification is-info">
+							<h1 class="title is-size-4">Bulma?</h1>
+							<p class="is-size-5">
+								Bulma is a modern CSS framework from @jgthms, based on Flexbox.
+								Using Bulma, we can describe our website's design using just classes. ᕕ( ᐛ )ᕗ 
+							</p>
+						</div>
+					</div>
+					<div class="column">
+						<div class="notification is-primary">
+							<h1 class="title is-size-4">…Flexbox?</h1>
+							<p class="is-size-5">
+								Flexbox is a CSS spec that makes sectioning and aligning more natural.
+								We don't need to know Flexbox but it's how Bulma works behind-the-scenes. ⦤(^ー^)⦥
+							</p>
+						</div>
+					</div>
+					<div class="column">
+						<div class="notification is-warning">
+							<h1 class="title is-size-4">…Classes?</h1>
+							<p class="is-size-5">
+								Instead of writing our CSS per-element, we can use predefined classes.
+								With enough classes, we can describe our website design using semantics. ٩(^ᴗ^)۶
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.section -->
+  <!-- .section -->
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline">
+        <div class="column is-one-third">
+          <article class="media notification has-background-white">
+            <figure class="media-left">
+              <span class="icon">
+                <i class="fas fa-lg fa-columns has-text-warning"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Columns</h1>
+                <p class="subtitle is-size-5">
+                  The power of <strong>Flexbox</strong> in a simple interface
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="column is-one-third">
+          <article class="media notification has-background-white">
+            <figure class="media-left">
+              <span class="icon has-text-info">
+                <i class="fab fa-lg fa-wpforms"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Form</h1>
+                <p class="subtitle is-size-5">
+                  The indispensable <strong>form controls</strong>, designed for maximum clarity
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="column is-one-third">
+          <article class="media notification has-background-white">
+            <figure class="media-left">
+              <span class="icon has-text-danger">
+                <i class="fas fa-lg fa-cubes"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Components</h1>
+                <p class="subtitle is-size-5">
+                  Advanced multi-part components with lots of possibilities
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="column is-one-third">
+          <article class="media notification has-background-white">
+            <figure class="media-left">
+              <span class="icon has-text-grey">
+                <i class="fas fa-lg fa-cogs"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Modifiers</h1>
+                <p class="subtitle is-size-5">
+                  An <strong>easy-to-read</strong> naming system designed for humans
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="column is-one-third">
+          <article class="media notification has-background-white">
+            <figure class="media-left">
+              <span class="icon has-text-primary">
+                <i class="fas fa-lg fa-warehouse"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Layout</h1>
+                <p class="subtitle is-size-5">
+                  Design the <strong>structure</strong> of your webpage with these CSS classes
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="column is-one-third">
+          <article class="media notification has-background-white">
+            <figure class="media-left">
+              <span class="icon has-text-danger">
+                <i class="fas fa-lg fa-cube"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-4">Elements</h1>
+                <p class="subtitle is-size-5">
+                  Essential interface elements that only require a <strong>single CSS class</strong>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- /.section -->
+
+	</body>
+</html>
+
+
+<script>
+  var titles="goobs";
+  document.getElementById('output').innerHTML=titles;
+</script>
+
+<nav class="navbar is-fixed-top">
+  <div id="navbarMenuHeroC" class="navbar-menu">
+      <ul class="navbar-end">
+        <a href="/app-home" target="_self" class="navbar-item">
+          Home
+        </a>
+        <a href="/app-projects" class="navbar-item">
+          Projects
+        </a>
+        <a href="/app-links" class="navbar-item">
+          Links
+      </a></ul>
+  </div>
 </nav>
 
-<section class="hero is-warning is-fullheight">
-    <div class="banner">
-          <h1 class="title">
-          Tina Ismail
-          </h1>
-          <h3 class="subtitle">
-          developer
-          </h3>
-      </div>
-      <div class="grid">
+<div class="columns">
+  <div class="column">
+    First column
+  </div>
+  <div class="column">
+    Second column
+  </div>
+  <div class="column">
+    Third column
+  </div>
+  <div class="column">
+    Fourth column
+  </div>
+</div>
 
-      <ul class="menu-list left">
-          <li><a href="https://www.github.com/tinaismail" class="navbar-item"><span style="font-size: 40px;"><fa-icon [icon]="faGithub"></fa-icon></span></a></li>
-          <li><a href="https://www.linkedin.com/in/tina-ismail" class="navbar-item"><span style="font-size: 40px;"><fa-icon [icon]="faLinkedin"></fa-icon></span></a></li>
-          <li><a href="#" class="navbar-item"><span style="font-size: 40px;"><fa-icon [icon]="faTwitter"></fa-icon></span></a></li>
-      </ul>
-  
-      <img class="right" src="../../assets/turkey2.png">
-
+<!-- Main container -->
+<nav class="level">
+  <!-- Left side -->
+  <div class="level-left">
+    <div class="level-item">
+      <p class="subtitle is-5">
+        <strong>123</strong> posts
+      </p>
     </div>
-      
-      
-  </section>
+    <div class="level-item">
+      <div class="field has-addons">
+        <p class="control">
+          <input class="input" type="text" placeholder="Find a post">
+        </p>
+        <p class="control">
+          <button class="button">
+            Search
+          </button>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right side -->
+  <div class="level-right">
+    <p class="level-item"><strong>All</strong></p>
+    <p class="level-item"><a>Published</a></p>
+    <p class="level-item"><a>Drafts</a></p>
+    <p class="level-item"><a>Deleted</a></p>
+    <p class="level-item"><a class="button is-success">New</a></p>
+  </div>
+</nav>
+
+<section class="section hero is-warning is-fullheight">
+  <div class="container">
+    <div class="columns is-multiline">
+      <div class="column is-one-third">
+        <article class="media">
+          <div class="media-content">
+            <div class="content">
+              <ul class="center" style="list-style: none;">
+                <li><a href="https://www.github.com/tinaismail" class="navbar-item is-one-third"><span style="font-size: 40px;"><fa-icon [icon]="faGithub"></fa-icon></span></a></li>
+                <li><a href="https://www.linkedin.com/in/tina-ismail" class="navbar-item is-one-third"><span style="font-size: 40px;"><fa-icon [icon]="faLinkedin"></fa-icon></span></a></li>
+                <li><a href="#" class="navbar-item is-one-third"><span style="font-size: 40px;"><fa-icon [icon]="faTwitter"></fa-icon></span></a></li>
+            </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="column is-one-third">
+        <article class="media">
+          <div class="media-content">
+            <div class="content">
+              <h1 class="title is-size-2">
+                Tina Ismail
+                </h1>
+                <h3 class="subtitle is-size-3">
+                  <p id="output"></p>
+                </h3>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="column is-one-third">
+        <article class="media">
+          <div class="media-content center">
+            <div class="content">
+              <figure class="media-left">
+                <img src="../../assets/turkey2.png">
+              </figure>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<div class="container is-widescreen">
+  
+
+  <section class="hero is-warning is-fullheight">
+      <div class="banner is-one-third">
+            <h1 class="title">
+            Tina Ismail
+            </h1>
+            <h3 class="subtitle">
+              <p id="output"></p>
+            </h3>
+        </div>
+
+        <div class="columns is-one-third">
+
+        <ul class="menu-list left center">
+            <li><a href="https://www.github.com/tinaismail" class="navbar-item is-one-third"><span style="font-size: 40px;"><fa-icon [icon]="faGithub"></fa-icon></span></a></li>
+            <li><a href="https://www.linkedin.com/in/tina-ismail" class="navbar-item is-one-third"><span style="font-size: 40px;"><fa-icon [icon]="faLinkedin"></fa-icon></span></a></li>
+            <li><a href="#" class="navbar-item is-one-third"><span style="font-size: 40px;"><fa-icon [icon]="faTwitter"></fa-icon></span></a></li>
+        </ul>
+        
+        <div class="right is-one-third"><img src="../../assets/turkey2.png"></div>
+        
+
+      </div>
+  </section> 
+  
+  <nav class="level">
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">GOOBY</p>
+        <p class="title">GOO</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">GOOBY</p>
+        <p class="title">GOO</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">GOOBY</p>
+        <p class="title">GOO</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">GOOBY</p>
+        <p class="title">GOO</p>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!--DOCS-->
+<!--
+	hero:       https://bulma.io/documentation/layout/hero/
+	section:    https://bulma.io/documentation/layout/section/
+	image:      https://bulma.io/documentation/elements/image/
+	columns:    https://bulma.io/documentation/columns/basics/
+	media:      https://bulma.io/documentation/layout/media-object/
+	icon:       https://bulma.io/documentation/elements/icon/
+	breadcrumb: https://bulma.io/documentation/components/breadcrumb/
+	level:      https://bulma.io/documentation/layout/level/
+-->
+
+<!-- hero: https://bulma.io/documentation/layout/hero/ -->
+<section class="hero">
+	<div class="hero-body">
+		<!-- ... -->
+	</div>
+</section>
+
+<!-- section: https://bulma.io/documentation/layout/section/ -->
+<section class="section">
+	<div class="container">
+		<!-- ... -->
+	</div>
+</section>
+
+<!-- image: https://bulma.io/documentation/elements/image/ -->
+<figure class="image is-128x128">
+	<img src="https://bulma.io/images/placeholders/128x128.png">
+</figure>
+
+<!-- columns: https://bulma.io/documentation/columns/basics/ -->
+<div class="columns">
+	<div class="column">
+		<!-- ... -->
+	</div>
+</div>
+
+<!-- media: https://bulma.io/documentation/layout/media-object/ -->
+<article class="media">
+	<figure class="media-left">
+		<!-- ... -->
+	</figure>
+	<div class="media-content">
+		<div class="content">
+			<!-- ... -->
+		</div>
+	</div>
+</article>
+
+<!-- icon: https://bulma.io/documentation/elements/icon/ -->
+<span class="icon has-text-success">
+	<i class="fas fa-check-square"></i>
+</span>
+
+<!-- breadcrumb: https://bulma.io/documentation/components/breadcrumb/ -->
+<nav class="breadcrumb" aria-label="breadcrumbs">
+	<ul>
+		<li><a href="#"><!-- ... --></a></li>
+		<li class="is-active"><a href="#" aria-current="page"><!-- ... --></a></li>
+	</ul>
+</nav>
+
+<!-- level: https://bulma.io/documentation/layout/level/ -->
+<div class="level">
+	<div class="level-item">
+		<!-- ... -->
+	</div>
+</div>

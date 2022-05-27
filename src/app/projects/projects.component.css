@@ -1,0 +1,33 @@
+.projectgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 60vw;
+    align-content: center;
+}
+
+.first {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 40px;
+
+}
+.second {
+    grid-column: 2;
+    grid-row: 1;
+    padding-right: 40px;
+
+}
+.third {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 40px;
+
+}
+.fourth {
+    grid-column: 2;
+    grid-row: 2;
+    padding-right: 40px;
+
+}
